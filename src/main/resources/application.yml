@@ -1,0 +1,13 @@
+spring:
+  messages:
+    encoding: UTF-8
+  http:
+    encoding:
+      charset: UTF-8
+  thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+
+server:
+  tomcat:
+    uri-encoding: UTF-8
