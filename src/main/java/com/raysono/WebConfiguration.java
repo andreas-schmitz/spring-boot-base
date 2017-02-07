@@ -44,7 +44,6 @@ public class WebConfiguration extends WebMvcConfigurerAdapter {
 		registry.addViewController("/401.html").setViewName("401");
 		registry.addViewController("/404.html").setViewName("404");
 		registry.addViewController("/500.html").setViewName("500");
-		registry.addViewController("/login").setViewName("login");
 	}
 
 	@Override
